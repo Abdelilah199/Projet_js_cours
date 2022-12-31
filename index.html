@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .card{
+          width: 30%;
+          margin: 0px 20px;
+          border: 12px rgba(255, 255, 255, 0.284) solid;
+          border-radius: 25px;
+
+        }
+        .card:hover{
+          transform: scale(1.2);
+        }
+        #crd{
+            height: 550px;
+            width: 75%;
+            background-color:  rgba(201, 231, 201, 0.226);
+            justify-content: center;
+            margin: 140px 200px;
+            position: absolute;
+            opacity: 0.9;
+            border: 2px rgba(201, 231, 201, 0.477) solid;
+            border-radius: 23px;
+   
+   
+            
+
+        }
+        
+        #imagebg{
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100vh;
+        }
+        #m_bar{
+             width: 100%;
+            height: 60px;
+            position: fixed;
+            z-index: 99;
+            scroll-behavior: smooth;
+            background: #A299CE;
+            border: 2px solid white;
+        }
+        #space{
+
+          height: 110vh;
+
+        }
+        
+        .card-img-top{
+            height: 200px;
+        }
+        .badge{
+          width: 22%;
+          text-align: center;
+        }
+        .card-body{
+        }
+        .link-light{
+          text-decoration: none;
+        }
+        .content2 img{
+          height: 200px;
+        }
+        .card-title{
+          text-transform: capitalize;
+          font-size: medium;
+        }
+        .dd{
+          color: aquamarine;
+        }
+        
+        .nav-link{
+          font-size: large;
+            color:black;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light px-5" id="m_bar">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+    </nav>
+    <img src="./images/laptop.jpeg" class="img-fluid" alt="" id="imagebg">
+    <div class="container bg-secondary text-center " id="crd">
+      <div id="ww">
+        <h1 class="dd display-4 text-light pt-5 mt-5" >Eat(), Sleep(), Code(), Repeat()</h1>
+        <p class="text-light mt-5 display-6 dd">while you are alive.</p>
+        <button type="submit"  class="btn btn-warning mb-4 text-light mt-5 dd" >
+            <a href="./courses.html" class="link-light" target="_blank" rel="noopener noreferrer">Courses Liste</a>
+            
+          </button>
+      </div>
+        
+    </div>
+    <div id="space" >   
+    </div>
+    <div class="container text-center mb-5"  >
+      <h1><span class="text-warning">/ </span>Courses </h1>
+
+    </div>
+
+
+
+
+    <div class="container" id="home">
+      <div class="allc content2 d-flex justify-content-center" id="troi_card">
+                 
+    </div> 
+    <div class="container  text-center">
+       <button type="submit"  class="btn btn-warning mb-4 text-light mt-5" >
+        <a href="./courses.html" id="cl" class="link-light" target="_blank" rel="noopener noreferrer">Courses Liste</a>
+        
+      </button>
+    </div>
+    </div>
+    
+    <script src="./script.js"></script>
+    <script src="./index_script.js"></script>
+
+   
+</body>
+</html>
